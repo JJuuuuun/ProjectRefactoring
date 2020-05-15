@@ -1,0 +1,80 @@
+.button,
+.toggle-button {
+    -fx-background-color: null;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+.slider {
+    -fx-background-color: null;
+}
+
+/* Player */
+#infoBackground, #playerBackground {
+    -fx-background-color: mintcream;
+}
+
+#Playlist {
+    -fx-background-image: url("../img/Playlist.png");
+    -fx-background-size: 30px 30px;
+}
+
+#prevBtn {
+    -fx-background-image: url("../img/prev.png");
+    -fx-background-size: 30px 30px;
+}
+
+#playBtn {
+    -fx-background-image: url("../img/play.png");
+    -fx-background-size: 30px 30px;
+}
+
+#repeatBtn {
+    -fx-background-image: url("../img/no_repeat.png");
+    -fx-background-size: 30px 30px;
+}
+
+#muteBtn {
+    -fx-background-image: url("../img/volume.png");
+    -fx-background-size: 30px 30px;
+}
+
+#shuffleBtn {
+    -fx-background-image: url("../img/no_shuffle.png");
+    -fx-background-size: 30px 30px;
+}
+
+#nextBtn {
+    -fx-background-image: url("../img/next.png");
+    -fx-background-size: 30px 30px;
+}
+
+/* PlayInfo */
+
+#title, #artist {
+    -fx-font-family: "맑은 고딕";
+    -fx-pref-width: 150px;
+}
+
+#title {
+    -fx-font-size: 18px;
+}
+
+#artist {
+    -fx-font-size: 14px;
+}
+
+#likeBtn {
+    -fx-background-image: url("../img/not_liked.png");
+    -fx-background-size: 40px 40px;
+}
+
+#setBtn {
+    -fx-background-image: url("../img/settings.png");
+    -fx-background-size: 20px 20px;
+}
+
+#aboutBtn {
+    -fx-background-image: url("../img/dots.png");
+    -fx-background-size: 20px 20px;
+}
